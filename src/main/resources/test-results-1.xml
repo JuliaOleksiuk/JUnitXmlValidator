@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="135.923" tests="60" failures="30" skipped="15">
+  <testsuite name="Root Suite" timestamp="2024-11-15T14:43:07" tests="0" file="cypress/e2e/home.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="template spec" timestamp="2024-11-15T14:43:07" tests="60" time="135.918" failures="30">
+    <testcase name="passes" time="0.443" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:8:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:13:7)]]></failure>
+    </testcase>
+    <testcase name="passes" time="0.166" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:27:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:32:7)]]></failure>
+    </testcase>
+    <testcase name="passes" time="0.257" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:45:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:50:7)]]></failure>
+    </testcase>
+    <testcase name="passes" time="0.147" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:63:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:68:7)]]></failure>
+    </testcase>
+    <testcase name="passes" time="0.239" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:81:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:86:7)]]></failure>
+    </testcase>
+    <testcase name="passes" time="0.273" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:99:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:104:7)]]></failure>
+    </testcase>
+    <testcase name="passes" time="0.246" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:117:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:122:7)]]></failure>
+    </testcase>
+    <testcase name="passes" time="0.217" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:135:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:140:7)]]></failure>
+    </testcase>
+    <testcase name="passes" time="0.206" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:153:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:158:7)]]></failure>
+    </testcase>
+    <testcase name="passes" time="0.132" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:171:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:176:7)]]></failure>
+    </testcase>
+    <testcase name="passes" time="0.191" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:189:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:194:7)]]></failure>
+    </testcase>
+    <testcase name="passes" time="0.128" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:207:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:212:7)]]></failure>
+    </testcase>
+    <testcase name="passes" time="0.184" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:225:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:230:7)]]></failure>
+    </testcase>
+    <testcase name="passes" time="0.281" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:243:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:248:7)]]></failure>
+    </testcase>
+    <testcase name="passes" time="0.192" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:261:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:266:7)]]></failure>
+    </testcase>
+        <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:230:7)]]></failure>
+    </testcase>
+    <testcase name="passes" time="0.281" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:243:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:248:7)]]></failure>
+    </testcase>
+    <testcase name="passes" time="0.192" classname="template spec passes">
+    </testcase>
+    <testcase name="fails due to assertion error" time="0.000" classname="template spec fails due to assertion error">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1&gt;&apos; to have text &apos;Non-existing Text&apos;, but the text was &apos;Kitchen Sink&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1>' to have text 'Non-existing Text', but the text was 'Kitchen Sink'
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:261:17)]]></failure>
+    </testcase>
+    <testcase name="fails due to unexpected error" time="0.000" classname="template spec fails due to unexpected error">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `non-existent-element`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/home.cy.js:266:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

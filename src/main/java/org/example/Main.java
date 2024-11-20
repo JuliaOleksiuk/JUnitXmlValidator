@@ -1,39 +1,23 @@
 package org.example;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
 
-import javax.xml.parsers.*;
-import java.io.File;
+import java.util.Objects;
 
-import static org.example.JUnitXMLValidator.validateTestSuite;
-import static org.example.JUnitXMLValidator.validateTestSuites;
+import static org.example.JUnitXMLValidator.validateXML;
 
 public class Main {
     public static void main(String[] args) {
-        String filePath = "path/to/your/junit-report.xml";
-
         try {
-            // Parse the XML file
-            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder builder = factory.newDocumentBuilder();
-            Document document = builder.parse(new File(filePath));
+            String filePath = Objects.requireNonNull(Main.class.getClassLoader().getResource("test-results-1.xml")).getPath();
 
-            // Normalize the document
-            document.getDocumentElement().normalize();
+            long startTime = System.nanoTime();
+            validateXML(filePath);
+            long endTime = System.nanoTime();
 
-            // Validate the structure starting from the root
-            Element root = document.getDocumentElement();
-            if ("testsuites".equals(root.getNodeName())) {
-                validateTestSuites(root);
-            } else if ("testsuite".equals(root.getNodeName())) {
-                validateTestSuite(root);
-            } else {
-                throw new Exception("Invalid JUnit XML: Root element must be <testsuites> or <testsuite>");
-            }
+            long durationInMillis = (endTime - startTime) / 1_000_000;
+            System.out.println("Processing time: " + durationInMillis + " ms");
 
-            System.out.println("JUnit XML validation completed successfully.");
         } catch (Exception e) {
-            System.err.println("Error validating JUnit XML: " + e.getMessage());
+            System.err.println("Error locating or validating XML: " + e.getMessage());
         }
     }
 }

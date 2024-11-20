@@ -1,0 +1,15 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Áóåøÿÿÿÿ
+Z	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(¼×§r
+`	java:S112>"FDefine and throw a dedicated exception instead of using a generic one.(ò°ß°úÿÿÿÿ
+`	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(ú‡ÂÍúÿÿÿÿ
+`
+java:S1192"JDefine a constant instead of duplicating this literal "testsuite" 3 times.(êôˆ
+I
+java:S2755"3Disable access to external entities in XML parsing.(ğ¨ºî
+W
+java:S1118
+":Add a private constructor to hide the implicit public one.(Ê¡ê8å½Æó³2
+L	java:S106"+Replace this use of System.out by a logger.(’Œèİûÿÿÿÿ8ñœ½ó³2
+L	java:S106E"+Replace this use of System.out by a logger.(—µà“şÿÿÿÿ8€½ó³2
+L	java:S106H"+Replace this use of System.out by a logger.(í×°±ıÿÿÿÿ8½ó³2

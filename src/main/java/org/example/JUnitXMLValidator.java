@@ -2,8 +2,30 @@ package org.example;
 
 import org.w3c.dom.*;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.File;
+
 
 public class JUnitXMLValidator {
+
+    public static void validateXML(String filePath) throws Exception {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document document = builder.parse(new File(filePath));
+        document.getDocumentElement().normalize();
+
+        Element root = document.getDocumentElement();
+        if ("testsuites".equals(root.getNodeName())) {
+            validateTestSuites(root);
+        } else if ("testsuite".equals(root.getNodeName())) {
+            validateTestSuite(root);
+        } else {
+            throw new Exception("Invalid JUnit XML: Root element must be <testsuites> or <testsuite>");
+        }
+
+        System.out.println("JUnit XML validation completed successfully.");
+    }
 
     public static void validateTestSuites(Element testsuites) throws Exception {
         NodeList suites = testsuites.getElementsByTagName("testsuite");
@@ -15,12 +37,10 @@ public class JUnitXMLValidator {
     }
 
     public static void validateTestSuite(Element testsuite) throws Exception {
-        // Validate required attributes: name, tests, time
         if (!testsuite.hasAttribute("name") || !testsuite.hasAttribute("tests") || !testsuite.hasAttribute("time")) {
             throw new Exception("Invalid <testsuite>: Must contain 'name', 'tests', and 'time' attributes.");
         }
 
-        // Validate nested <testsuite> elements
         NodeList nestedSuites = testsuite.getElementsByTagName("testsuite");
         for (int i = 0; i < nestedSuites.getLength(); i++) {
             if (nestedSuites.item(i).getParentNode() == testsuite) { // Validate direct children
@@ -28,7 +48,6 @@ public class JUnitXMLValidator {
             }
         }
 
-        // Validate <testcase> elements
         NodeList testCases = testsuite.getElementsByTagName("testcase");
         for (int i = 0; i < testCases.getLength(); i++) {
             if (testCases.item(i).getParentNode() == testsuite) { // Validate direct children
